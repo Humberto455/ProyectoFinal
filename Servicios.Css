@@ -1,0 +1,93 @@
+
+
+html, body{
+	height: 100%;
+	
+}
+
+body{
+
+	margin: 0px;
+	padding: 0px;
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #000000;
+}
+
+
+.menu{
+	list-style: none;
+	padding: 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+
+
+
+.copy {
+	line-height: 180%;
+	color:white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+/* :,c */
+
+
+
+
+/* copyright */
+#copyright{
+	overflow: hidden;
+	background-color:rgb(9, 1, 73);
+	margin-top: 28em;
+	text-align: center;
+	height: 20em;
+	
+   
+}
+
+.barra{
+	background: #092327;
+}
+
+#logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+#sac{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#T1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: black;
+}
