@@ -60,6 +60,25 @@
 
 
 /* :,c */
+/* Modelo 1*/
+.virtus{
+	text-align:center;
+	font-size:18pt;
+}
+.cen{
+	text-align:center;
+	font-size:15pt;
+}
+.autos{
+	/*#092327*/	
+			
+	background-color:#6987BF;
+	text-align:center;
+	margin-left:50px;
+	width:1220px;
+	height:250px;
+	font-size:14pt;
+}
 
 
 
