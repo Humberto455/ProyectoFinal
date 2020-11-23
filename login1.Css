@@ -1,13 +1,14 @@
 body{
-    background-image: url("https://loscoches.com/wp-content/uploads/2020/04/Carros-VW-Golf.jpg");
+    background-image: url("https://vw-vaqcsa.com.mx/Assets/ModelosNuevos/img/Modelos/VIRTUS/21/Galeria/web/vw-virtus-galeria-01-auto.jpg");
     background-repeat: no-repeat;
-    background-position-x: center;
+	background-position-x: center;
+	background-size: cover;
 }
 
  /*Menu*/
  .menu ul{
 	float:left;
-	width:100%;
+	width:97%;
 	background-color:#6987BF;
 	height: 40px;
 	}
@@ -75,7 +76,7 @@ body{
 .copy{
 	overflow: hidden;
 	background-color:rgb(9, 1, 73);
-	margin-top: 28em;
+	margin-top: 31em;
 	text-align: center;
 	height: 10em;
 	color: white;
@@ -86,11 +87,14 @@ body{
 	background: #092327;
 }
 
+
 #logo{
-	width: 50px;
-	height: 50px;
-	margin-top: 10px;
+	width: 70px;
+	height: 70px;
+	
 }
+
+
 
 /*Redes */
 .fab{

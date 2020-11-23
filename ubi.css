@@ -108,10 +108,10 @@ top:23px
    
    /*parrafos*/
 #p1 {
-	background-color:#0E4AEA;
+	background-color:#6987BF;
 	width:700px;
 	height: 220px;
-	
+	border-radius: 8px;
 }
   #p1{
 		position: absolute;
@@ -135,10 +135,10 @@ top:23px
 
    /*parrafos*/
 #p2 {
-	background-color:#0E4AEA;
+	background-color:#6987BF;
 	width:700px;
 	height: 220px;
-	
+	border-radius: 8px;
 }
   #p2{
 		position: absolute;
@@ -162,10 +162,10 @@ top:23px
   
     /*parrafos*/
 	#p3 {
-		background-color:#0E4AEA;
+		background-color: #6987BF;
 		width:700px;
 		height: 220px;
-		
+		border-radius: 8px;
 	}
 	#p3{
 		position: absolute;

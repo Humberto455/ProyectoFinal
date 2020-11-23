@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<style>
+#Form{
+	width: 30%;
+    height: 30%;
+    position: fixed;
+	padding:30px;
+    visibility: hidden;
+    opacity: 0;
+	text-align:center;
+}
+#Form:target{
+    background: blue;
+    visibility: visible;
+    opacity: 1;
+}
+</style>
+
+<body>
+
+<a href="#Form" id="Entrada">CLICK</a>
+<p id="x"></p>
+	<div id="Form">
+		<div id="Cont">
+		
+			<form>
+			  <label>Usuario:</label><br>
+			  <input type="text" id="User" name="User" placeholder="Alex625" required><br>
+			  <label>Contraseña:</label><br>
+			  <input type="number" id="Password" name="Password" required><br><br>
+			</form>
+			 <button class="boton" type="button" onclick="ttt()">CLICK</button>
+			
+		</div>
+	</div>
+	
+</body>
+</html>
+
+<script type="text/javascript">
+function ttt(){
+    // DECORACION
+   // document.getElementById("x").style.backgroundColor ="Red"; 
+   // document.getElementById("x").style.fontFamily="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
+   // document.getElementById("x").style.color="white"; 
+   // document.getElementById("x").style.fontSize="20px";
+// logica
+var User = document.getElementById("User").value;
+
+var Contra = document.getElementById("Password").value;
+
+if(Contra == 666){
+document.getElementById("Entrada").innerHTML =(User);
+console.log(User)
+}
+
+
+}
+//document.getElementById("x").innerHTML=("Hola!"+" "+ Nombre +" "+ Apellido);
+
+
+// batalle mucho para encontrar mucho como hacer esto por si alguien lo llega a ver 
+// todo lo hice en base ala informacion de la sig pagina
+// https://www.w3schools.com/js/js_htmldom_document.asp
+</script> 
