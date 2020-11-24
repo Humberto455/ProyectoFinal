@@ -186,3 +186,9 @@ body{
 	font-weight: 600;
 	color: black;
 }
+#boton1{
+	position: absolute;
+	top: 190px;
+	left: 75%;
+	
+}
