@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://vw-vaqcsa.com.mx/Assets/ModelosNuevos/img/Modelos/VIRTUS/21/Galeria/web/vw-virtus-galeria-01-auto.jpg");
+    background-color:rgb(11, 12, 15);
     background-repeat: no-repeat;
 	background-position-x: center;
 	background-size: cover;
@@ -11,6 +11,9 @@ body{
 	width:97%;
 	background-color:#6987BF;
 	height: 40px;
+	position: fixed;
+	/* position: relative; */
+	margin: 1px;
 	}
 	.menu ul li{
 	display: inline;
@@ -76,7 +79,7 @@ body{
 .copy{
 	overflow: hidden;
 	background-color:rgb(9, 1, 73);
-	margin-top: 31em;
+	margin-top: 8em;
 	text-align: center;
 	height: 10em;
 	color: white;
@@ -138,4 +141,48 @@ body{
 }
 .social a:hover{
     padding: 10px 25px;
+}
+
+
+/* Carros en columna */
+/* .Carro1{
+	margin: 1px;
+	width: 1330px;
+	height: 580px;
+	display: block;
+
+} */
+#carro1{
+	margin: 1px;
+	width: 1330px;
+	height: 580px;
+	display: block;
+
+}
+#carro2{
+	margin: 1px;
+	width: 1330px;
+	height: 580px;
+	display: block;
+}
+#carro3{
+	margin: 1px;
+	width: 1330px;
+	height: 580px;
+	display: block;
+}
+
+/* texto dentro de los carros */
+#contenido1{
+	position: relative;
+	display: inline-block;
+}
+#tx1{
+	position: absolute;
+	top: 120px;
+	left: 65%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: black;
 }

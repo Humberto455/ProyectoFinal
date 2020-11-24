@@ -120,6 +120,54 @@
    </div>
 		<!--redes-->
 		
+	
+		<!--Comentarios-->
+		
+		<div id="comentario">
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			  <div class="row">
+					<label class="required" for="name">Your name:</label><br />
+					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+					<span id="name_validation" class="error_message"></span>
+			  </div>
+			  
+			  <div class="row">
+					<label class="required" for="email">Your email:</label><br />
+					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+					<span id="email_validation" class="error_message"></span>
+			  </div>
+			  
+			  <div class="row">
+					<label class="required" for="message">Your message:</label><br />
+					<textarea id="message" class="input" name="message" rows="5" cols="30"></textarea><br />
+					<span id="message_validation" class="error_message"></span>
+			  </div>
+				
+			  <input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+			</form>
+		
+<!--Extra-->
+<div id="extra">
+	Términos y condiciones por Volkswagen de México
+Este sitio es oficial de Volkswagen de México, S.A. de C.V.; la información aquí referida, así como las ilustraciones de este sitio están de acuerdo a las versiones y equipamientos ofertados por el proveedor dentro de la República Mexicana y son las más recientes en el momento de hacer esta publicación.
+	
+	</div>
 
+		
+		 <!--jAVASCRIPT-->
+			 <script type="text/javascript">
+				function obtenerdatos()
+				{
+					var nombre = document.getElementById('name').value;
+					var Email = document.getElementById('email').value;
+					var mensaje = document.getElementById('message').value;
+					
+					console.log ("Nombre: " + nombre)
+					console.log("Email: " + Email)
+					console.log("Mensaje: " + mensaje)
+				}
+			</script>
+		<!--comentario-->
+		 
  </body>
  </html>

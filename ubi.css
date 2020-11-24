@@ -97,15 +97,6 @@ top:23px
 	}
  /*textos*/
    
- /*linea*/
-   #linea{
-	   width:100%;
-	   height:1px;
-	   background-color:#4063DB;
-	   padding-top: 3px;
-	  
-   }
-   
    /*parrafos*/
 #p1 {
 	background-color:#6987BF;
@@ -231,7 +222,7 @@ top:23px
 		background-color:rgb(9, 1, 73);
 		margin-top: 5em;
 		text-align: center;
-		height: 12em;
+		height: 15em;
 		width: 100%;
 		color: white;
 	}
@@ -351,3 +342,39 @@ top:23px
 	  border-radius: 100%;
 	}
 /*redes*/
+
+	/*comentario*/
+	#comentario {
+		position: absolute;
+	left:30px;
+	top:1450px;
+	margin-top: 8px
+	}
+
+	.required{
+		font-family:"Helvetica";
+		color: white;
+		font-size: 15px
+	}
+	.input{
+	border-radius: 8px
+	}
+
+	#button {
+		font-family:"arial";
+	}
+	/*comentario*/
+
+	#extra{
+		position: absolute;
+		left:900px;
+		top: 0px;
+		width: 350px
+	}
+		
+	#extra{
+		margin-top: 8px;
+		font-family:"Helvetica";
+			color: white;
+			font-size: 15px;
+	}

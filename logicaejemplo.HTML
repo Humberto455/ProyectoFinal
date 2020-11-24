@@ -19,12 +19,19 @@
     visibility: visible;
     opacity: 1;
 }
+#x{
+visibility:hidden;
+width:80px;
+height:80px;
+float:left;
+display:block;
+}
+
 </style>
 
 <body>
-
+<img id="x" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToJkHg0fnpkVUz9sYvTIJBeacagB4AnEj9zA&usqp=CAU">
 <a href="#Form" id="Entrada">CLICK</a>
-<p id="x"></p>
 	<div id="Form">
 		<div id="Cont">
 		
@@ -57,6 +64,12 @@ var Contra = document.getElementById("Password").value;
 if(Contra == 666){
 document.getElementById("Entrada").innerHTML =(User);
 console.log(User)
+ document.getElementById("Form").style.visibility="hidden";
+ document.getElementById("x").style.visibility="visible";
+ 
+}else{
+alert("Contraseña Incorrecta")
+
 }
 
 
