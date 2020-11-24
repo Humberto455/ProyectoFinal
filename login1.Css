@@ -192,3 +192,17 @@ body{
 	left: 75%;
 	
 }
+
+#bc1:link, #bc1:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+  }
+  
+  #bc1:hover, #bc1:active {
+	background-color: red;
+  }
