@@ -304,19 +304,10 @@ margin-left: 39%;
 
 }
 
-/* #Entrada:link, #Entrada:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  border-radius:1px;
-  height: 12px;
+#Entrada{
+	background-color: rgb(34, 209, 195);
+	color: black;
 }
 
-#Entrada:hover, #Entrada:active {
-  background-color: red;
-} */
 
 
