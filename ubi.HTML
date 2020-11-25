@@ -15,12 +15,12 @@
 			<li><a href="Login.HTML">Inicio</a></li>
 			<li><a href="#">Modelos</a>
 				<ul>
-				 <li><a href="model1.html">Tiguan</a></li>
+				 <li><a href="model1.html"> Virtus</a></li>
 				 <li><a href="model2.HTML">Golf</a></li>
 				 <li><a href="model3.HTML">Jetta</a></li>
 				 </ul>
 				 </li>
-			<li><a href="History.HTML">historia</a></li>
+			<li><a href="History.HTML">Historia</a></li>
 			<li><a href="ubi.HTML">Ubicacion</a></li>
 			<li><a href="Servicios.HTML">Ayuda</a></li>
 		</ul>
@@ -125,50 +125,65 @@
 		<!--Comentarios-->
 		
 		<div id="comentario">
-			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			<form id="coment" >
 			  <div class="row">
-					<label class="required" for="name">Your name:</label><br />
+					<label class="required" for="name">Nombre:</label><br />
 					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-					<span id="name_validation" class="error_message"></span>
+					
 			  </div>
 			  
 			  <div class="row">
-					<label class="required" for="email">Your email:</label><br />
+					<label class="required" for="email">E-mail:</label><br />
 					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-					<span id="email_validation" class="error_message"></span>
+					
 			  </div>
 			  
 			  <div class="row">
-					<label class="required" for="message">Your message:</label><br />
+					<label class="required" for="message">Mensaje:</label><br />
 					<textarea id="message" class="input" name="message" rows="5" cols="30"></textarea><br />
-					<span id="message_validation" class="error_message"></span>
+					
 			  </div>
 				
 			  <input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
 			</form>
+
+			<!--Boton Volver-->
+			<input id="button1" type="image" src="https://www.holaprincesa.es/img/cms/BOTONES/volver-03_1.png" onclick="obtenerdatos1()">
+			
 		
-<!--Extra-->
-<div id="extra">
-	Términos y condiciones por Volkswagen de México
-Este sitio es oficial de Volkswagen de México, S.A. de C.V.; la información aquí referida, así como las ilustraciones de este sitio están de acuerdo a las versiones y equipamientos ofertados por el proveedor dentro de la República Mexicana y son las más recientes en el momento de hacer esta publicación.
-	
-	</div>
+			<!--Extra-->
+			<div id="extra">
+				Términos y condiciones por Volkswagen de México
+			Este sitio es oficial de Volkswagen de México, S.A. de C.V.; la información aquí referida, así como las ilustraciones de este sitio están de acuerdo a las versiones y equipamientos ofertados por el proveedor dentro de la República Mexicana y son las más recientes en el momento de hacer esta publicación.
+			</div>
+
 
 		
 		 <!--jAVASCRIPT-->
-			 <script type="text/javascript">
-				function obtenerdatos()
-				{
-					var nombre = document.getElementById('name').value;
-					var Email = document.getElementById('email').value;
-					var mensaje = document.getElementById('message').value;
-					
-					console.log ("Nombre: " + nombre)
-					console.log("Email: " + Email)
-					console.log("Mensaje: " + mensaje)
-				}
-			</script>
-		<!--comentario-->
+		 <script type="text/javascript">
+			//funcion boton enviar 
+			   function obtenerdatos()
+			   {
+				 document.getElementById("coment").style.display = "none"; 
+				  document.getElementById("button1").style.display = "block";
+			   
+				   var nombre = document.getElementById('name').value;
+				   var Email = document.getElementById('email').value;
+				   var mensaje = document.getElementById('message').value;
+				   
+				   console.log ("Nombre: " + nombre)
+				   console.log("Email: " + Email)
+				   console.log("Mensaje: " + mensaje)
+			   }
+			   //funcion boton volver 
+			   function obtenerdatos1()
+		   {
+		   document.getElementById("coment").style.display = "block";
+			document.getElementById("button1").style.display = "none";
+			document.getElementById("coment").reset();
+			}
+			   
+		   </script>
 		 
  </body>
  </html>

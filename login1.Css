@@ -8,18 +8,19 @@ body{
  /*Menu*/
  .menu ul{
 	float:left;
-	width:97%;
+	width:100%;
 	background-color:#6987BF;
 	height: 40px;
 	position: fixed;
+	
 	/* position: relative; */
-	margin: 1px;
+	margin-top: -10px;
 	}
 	.menu ul li{
 	display: inline;
 	float: left;
 	margin-left: 0px;
-	width: 100px;
+	width: 110px;
 	height: 100%;
 	}
 	.menu ul li a{
@@ -49,7 +50,7 @@ body{
 	position:relative;
 	z-index: 1;
 	background-color: gray;
-	width: 200px;
+	width: 100px;
 	height: auto;
 	left: 0px;
 	}
@@ -79,10 +80,11 @@ body{
 .copy{
 	overflow: hidden;
 	background-color:rgb(9, 1, 73);
-	margin-top: 8em;
+	margin-top: 0em;
 	text-align: center;
 	height: 10em;
 	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
 
@@ -93,7 +95,7 @@ body{
 
 #logo{
 	width: 70px;
-	height: 70px;
+	height: 40px;
 	
 }
 
@@ -153,21 +155,21 @@ body{
 
 } */
 #carro1{
-	margin: 1px;
-	width: 1330px;
+	margin: 0px;
+	width: 104%;
 	height: 580px;
 	display: block;
 
 }
 #carro2{
-	margin: 1px;
-	width: 1330px;
+	margin: 0px;
+	width: 100%;
 	height: 580px;
 	display: block;
 }
 #carro3{
-	margin: 1px;
-	width: 1330px;
+	margin: 0px;
+	width: 100%;
 	height: 580px;
 	display: block;
 }
@@ -176,6 +178,15 @@ body{
 #contenido1{
 	position: relative;
 	display: inline-block;
+}
+#tx6{
+	position: absolute;
+	top: 475px;
+	left: 7%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color:white;
 }
 #tx1{
 	position: absolute;
@@ -192,7 +203,7 @@ body{
 	left: 75%;
 	
 }
-
+/* estilo del boton de cada imagen */
 #bc1:link, #bc1:visited {
 	background-color: #f44336;
 	color: white;
@@ -206,3 +217,106 @@ body{
   #bc1:hover, #bc1:active {
 	background-color: red;
   }
+/* estilo del boton */
+
+/* contenido2 */
+  #contenido2{
+	position: relative;
+	display: inline-block;
+}
+#tx2{
+	position: absolute;
+	top: 700px;
+	left: 5%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: black;
+}
+#tx3{
+	position: absolute;
+	top: 1090px;
+	left: 5%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color:white;
+}
+#boton2{
+	position: absolute;
+	top: 800px;
+	left: 12%;
+	
+}
+
+/* Contenido 3 */
+#contenido3{
+	position: relative;
+	display: inline-block;
+}
+#tx4{
+	position: absolute;
+	top: 1200px;
+	left: 50%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: black;
+}
+#tx5{
+	position: absolute;
+	top: 1680px;
+	left: 7%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color:white;
+}
+#boton3{
+	position: absolute;
+	top: 1279px;
+	left: 80%;
+	
+}
+
+
+/* Login */
+#Form{
+	width: 30%;
+    height: 30%;
+    position: fixed;
+	padding:30px;
+    visibility: hidden;
+    opacity: 0;
+	text-align:center;
+}
+#Form:target{
+    background: blue;
+    visibility: visible;
+    opacity: 1;
+}
+#x{
+visibility:hidden;
+width:40px;
+height:40px;
+display:block;
+margin-left: 39%;
+
+}
+
+/* #Entrada:link, #Entrada:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius:1px;
+  height: 12px;
+}
+
+#Entrada:hover, #Entrada:active {
+  background-color: red;
+} */
+
+
