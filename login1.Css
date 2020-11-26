@@ -8,13 +8,15 @@ body{
  /*Menu*/
  .menu ul{
 	float:left;
-	width:100%;
+	width:110%;
 	background-color:#6987BF;
 	height: 40px;
 	position: fixed;
+	z-index: 1;
 	
 	/* position: relative; */
 	margin-top: -10px;
+	margin-left: -10px;
 	}
 	.menu ul li{
 	display: inline;
