@@ -94,7 +94,7 @@ body{
 
 
 #logo{
-	width: 70px;
+	width: 55px;
 	height: 40px;
 	
 }
@@ -294,7 +294,7 @@ body{
 	margin-left: 77%;
 }
 #Form:target{
-    background: blue;
+    background: #6987BF;
     visibility: visible;
     opacity: 1;
 }
