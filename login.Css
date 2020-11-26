@@ -71,19 +71,30 @@
 }
 .autos{
 	/*#092327*/	
-	float:left;		
-	background-color:#6987BF;
 	text-align:center;
+	padding-left:50px;
+	background-color:#6987BF;
 	margin-left:50px;
-	width:700px;
+	width:1000px;
 	height:250px;
 	font-size:14pt;
 	-webkit-border-radius: 20px;
         border-radius: 20px;
 }
 #im{
+	padding-left:50px;
 	float:left;
-	padding-left:20px;
+	padding-left:30px;
+}
+#two{
+	padding-left:70px;
+	width:1000px;
+	height:400px;
+}
+#one{
+	padding-left:70px;
+	width:1000px;
+	height:400px;
 }
 
 

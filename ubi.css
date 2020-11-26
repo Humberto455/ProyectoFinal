@@ -6,26 +6,27 @@ body{
 
 /*logo*/
 #logo{
-	width: 70px;
-	height: 70px;
+	width: 55px;
+	height: 55px;
 	
 }
 
 #logo 
 {position:absolute;
-left:25px;
-top:4px
+left:35px;
+top:1px
 }
 
  /*Menu*/
-	 .menu{
-		padding-left: 35px
-	 }
+	 
 	 
 	 .menu ul{
-		width:90%;
+		width:110%;
 		background-color:#6987BF;
 		height: 60px;
+		margin-top: -10px;
+		margin-right: -10px;
+		margin-left: -10px;
 	}
 	
 	.menu ul li{
@@ -42,7 +43,7 @@ top:4px
 		line-height: 60px;
 		text-align: center;
 		color:#DBDBE1;
-		font-size: 21px;
+		font-size: 19px;
 		font-family: "Helvetica";
 	}
 	
@@ -66,8 +67,8 @@ top:4px
 		z-index: 1;
 		background-color: gray;
 		width: 100px;
-		height: 130px;
-		left: 0px;
+		height: 120px;
+		left: 15px;
 	}
 	
 	.menu li ul li:hover{
@@ -107,7 +108,7 @@ top:4px
   #p1{
 		position: absolute;
 		left:550px;
-		top:198px;
+		top:168px;
 	
   }
   
@@ -134,7 +135,7 @@ top:4px
   #p2{
 		position: absolute;
 		left:550px;
-		top:451px;
+		top:421px;
 	
   }
   
@@ -161,7 +162,7 @@ top:4px
 	#p3{
 		position: absolute;
 		left:550px;
-		top:702px;
+		top:672px;
 	
   }
   
@@ -223,9 +224,16 @@ top:4px
 		margin-top: 5em;
 		text-align: center;
 		height: 15em;
-		width: 100%;
+		width: 110%;
 		color: white;
+		margin-left:-65px;
+		margin-right:-10px;
+		margin-bottom:-10px;
 	}
+	#p{
+		margin-left: center;
+		margin-top: 80px;
+   }
  /*copy*/
   
  /*redes*/
@@ -346,7 +354,7 @@ top:4px
 	/*comentario*/
 	#comentario {
 		position: absolute;
-	left:30px;
+	left:40px;
 	top:1430px;
 	margin-top: 8px
 	}
@@ -367,7 +375,7 @@ top:4px
 
 	#extra{
 		position: absolute;
-		left:900px;
+		left:950px;
 		top: 0px;
 		width: 350px
 	}

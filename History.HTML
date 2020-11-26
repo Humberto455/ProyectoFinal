@@ -7,23 +7,26 @@
     <body>
         <title>Historia</title>
         
-        <div class="barra"></div>
-        <div class="menu">
-		    <ul>
-			    <li><a href="Login.HTML">Inicio</a></li>
+            <!--Menu-->
+		<div class="menu">
+			<img id="logo" src="https://assets.stickpng.com/images/580b585b2edbce24c47b2cf2.png">
+			<ul>
+				<li></li>
+			<li><a href="Login.HTML">Inicio</a></li>
 			<li><a href="#">Modelos</a>
-			    <ul>
-			    <li><a href="model1.html"> Virtus</a></li>
-			     <li><a href="model2.HTML">Golf</a></li>
-			    <li><a href="model3.HTML">Jetta</a></li>
-			    </ul>
-			     </li>
-			    <li><a href="History.HTML">Historia</a></li>
-                <li><a href="ubi.HTML">Ubicacion</a></li>
-                <li><a href="Servicios.HTML">Ayuda</a></li>
-			
+				<ul>
+				 <li><a href="model1.html"> Virtus</a></li>
+				 <li><a href="model2.HTML">Golf</a></li>
+				 <li><a href="model3.HTML">Jetta</a></li>
+				 </ul>
+				 </li>
+			<li><a href="History.HTML">Historia</a></li>
+			<li><a href="ubi.HTML">Ubicacion</a></li>
+			<li><a href="Servicios.HTML">Ayuda</a></li>
 		</ul>
-        </div><br>
+		</div>
+<!--Menu-->
+        <br>
 
         <h1>Quienes Somos Nosotros?</h1>
         <div id="tiempo1">
@@ -35,10 +38,85 @@
         
         
         
-         <div  class="copy">
-            <p> ®PROPIEDAD DEL CURSO DE CODELLEGE</p>
+         <!--Copyright-->
+	 <div id="copyright" class="copy">
+        <p id="p"> ®PROPIEDAD DEL CURSO DE CODELLEGE</p>
+    <!--Copyright-->
+    
+    <!--redes-->
+        <div class="social-networks">
+    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+    
+</div>
+</div>
+    <!--redes-->
+    
+
+    <!--Comentarios-->
+    
+    <div id="comentario">
+        <form id="coment" >
+          <div class="row">
+                <label class="required" for="name">Nombre:</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                
+          </div>
+          
+          <div class="row">
+                <label class="required" for="email">E-mail:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                
+          </div>
+          
+          <div class="row">
+                <label class="required" for="message">Mensaje:</label><br />
+                <textarea id="message" class="input" name="message" rows="5" cols="30"></textarea><br />
+                
+          </div>
+            
+          <input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+        </form>
+
+        <!--Boton Volver-->
+        <input id="button1" type="image" src="https://www.holaprincesa.es/img/cms/BOTONES/volver-03_1.png" onclick="obtenerdatos1()">
+        
+    
+        <!--Extra-->
+        <div id="extra">
+            Términos y condiciones por Volkswagen de México
+        Este sitio es oficial de Volkswagen de México, S.A. de C.V.; la información aquí referida, así como las ilustraciones de este sitio están de acuerdo a las versiones y equipamientos ofertados por el proveedor dentro de la República Mexicana y son las más recientes en el momento de hacer esta publicación.
         </div>
 
 
-    </body>
-</html>
+    
+     <!--jAVASCRIPT-->
+     <script type="text/javascript">
+        //funcion boton enviar 
+           function obtenerdatos()
+           {
+             document.getElementById("coment").style.display = "none"; 
+              document.getElementById("button1").style.display = "block";
+           
+               var nombre = document.getElementById('name').value;
+               var Email = document.getElementById('email').value;
+               var mensaje = document.getElementById('message').value;
+               
+               console.log ("Nombre: " + nombre)
+               console.log("Email: " + Email)
+               console.log("Mensaje: " + mensaje)
+           }
+           //funcion boton volver 
+           function obtenerdatos1()
+       {
+       document.getElementById("coment").style.display = "block";
+        document.getElementById("button1").style.display = "none";
+        document.getElementById("coment").reset();
+        }
+           
+       </script>
+       
+       </html>
