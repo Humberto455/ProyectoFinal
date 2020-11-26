@@ -293,7 +293,7 @@ body{
     visibility: hidden;
     opacity: 0;
 	text-align:center;
-	margin-left: 77%;
+	margin-left: 69.4%;
 }
 #Form:target{
     background: #6987BF;
@@ -305,7 +305,7 @@ visibility:hidden;
 width:40px;
 height:40px;
 display:block;
-margin-left: 85.5%;
+margin-left: 85.6%;
 
 }
 
@@ -313,7 +313,7 @@ margin-left: 85.5%;
 	background-color: rgb(34, 209, 195);
 	color: black;
 	display: inline-block;
-	margin-left: 481%;
+	margin-left: 491%;
 	width: 100%;
 }
 
