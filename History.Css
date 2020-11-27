@@ -231,3 +231,32 @@ border-radius: 8px
 	height: 100px;
 	width: 180px;
 }
+
+/* Contenido */
+
+.años{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:48%;
+	
+}
+
+
+#imagen{
+	float: left;
+	display: block;
+	margin-left: -90%;
+}
+#lista1{
+	padding-top: 5%;
+	padding-bottom: 18%;
+	
+}
+#imagen2{
+	display: block;
+	margin-left: 100%;
+}
+#vos{
+	height: 150px;
+	width: 150px;
+	margin-left: 44%;
+}

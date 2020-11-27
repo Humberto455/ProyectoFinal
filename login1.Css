@@ -3,20 +3,21 @@ body{
     background-repeat: no-repeat;
 	background-position-x: center;
 	background-size: cover;
+	margin:0px;
 }
 
  /*Menu*/
  .menu ul{
 	float:left;
-	width:110%;
+	width:100%;
 	background-color:#6987BF;
 	height: 40px;
 	position: fixed;
 	z-index: 1;
+	margin-top: 0px;
 	
 	/* position: relative; */
-	margin-top: -10px;
-	margin-left: -10px;
+
 	}
 	.menu ul li{
 	display: inline;
@@ -32,7 +33,7 @@ body{
 	line-height: 40px;
 	text-align: center;
 	color:lightgray;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: "Verdana";
 	}
 	.menu li ul li{
@@ -87,7 +88,7 @@ body{
 	height: 10em;
 	color: white;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
+width:100%;
 }
 
 .barra{
@@ -158,22 +159,26 @@ body{
 } */
 #carro1{
 	margin: 0px;
-	width: 104%;
+	width: 100%;
 	height: 580px;
-	display: block;
+	/* display: block; */
+	
 
 }
 #carro2{
 	margin: 0px;
 	width: 100%;
 	height: 580px;
-	display: block;
+	/* display: block; */
+	
+	
 }
 #carro3{
 	margin: 0px;
 	width: 100%;
 	height: 580px;
-	display: block;
+	/* display: block; */
+	
 }
 
 /* texto dentro de los carros */
@@ -201,27 +206,8 @@ body{
 	font-weight: 600;
 	color: black;
 }
-#boton1{
-	position: absolute;
-	top: 175px;
-	left: 68%;
-	
-}
-/* estilo del boton de cada imagen */
-#bc1:link, #bc1:visited {
-	background-color: #f44336;
-	color: white;
-	padding: 14px 25px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	
-  }
-  
-  #bc1:hover, #bc1:active {
-	background-color: red;
-  }
-/* estilo del boton */
+
+
 
 /* contenido2 */
   #contenido2{
@@ -239,19 +225,14 @@ body{
 }
 #tx3{
 	position: absolute;
-	top: 1090px;
+	top: 1150px;
 	left: 5%;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	color:white;
 }
-#boton2{
-	position: absolute;
-	top: 800px;
-	left: 12%;
-	
-}
+
 
 /* Contenido 3 */
 #contenido3{
@@ -260,7 +241,7 @@ body{
 }
 #tx4{
 	position: absolute;
-	top: 1200px;
+	top: 1350px;
 	left: 50%;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 40px;
@@ -269,31 +250,26 @@ body{
 }
 #tx5{
 	position: absolute;
-	top: 1680px;
-	left: 7%;
+	top: 1800px;
+	left: 5%;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	color:white;
 }
-#boton3{
-	position: absolute;
-	top: 1279px;
-	left: 80%;
-	
-}
+
 
 
 /* Login */
 #Form{
-	width: 15%;
+	width: 11%;
     height: 20%;
     /* position: fixed; */
 	padding:25px;
     visibility: hidden;
     opacity: 0;
 	text-align:center;
-	margin-left: 69.4%;
+	margin-left: 82%;
 }
 #Form:target{
     background: #6987BF;
@@ -305,7 +281,7 @@ visibility:hidden;
 width:40px;
 height:40px;
 display:block;
-margin-left: 85.6%;
+margin-left: 87%;
 
 }
 
@@ -326,4 +302,45 @@ margin-left: 85.6%;
 #botonc{
 	width: 30px;
 	height: 30px;
+}
+
+
+#Cont{
+	margin-left: -10px;
+}
+
+
+/* Botones de imagenes (.1)*/
+
+/* estilo del boton de cada imagen */
+.Botones:link, .Botones:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+  }
+  
+  .Botones:hover, .Botones:active {
+	background-color: red;
+  }
+/* estilo del boton */
+
+
+#boton1{
+	position: relative;
+
+	margin-left: 50%;
+}
+#boton2{
+	position: relative;
+
+	margin-left: 50%;
+}
+#boton3{
+	position: relative;
+
+	margin-left: 50%;
 }

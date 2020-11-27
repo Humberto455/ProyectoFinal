@@ -1,5 +1,5 @@
 body{
-	
+	margin:0px;
      background-color:#EEEEF3
 }
 
@@ -21,12 +21,10 @@ top:1px
 	 
 	 
 	 .menu ul{
-		width:110%;
+		width:100%;
 		background-color:#6987BF;
 		height: 60px;
-		margin-top: -10px;
-		margin-right: -10px;
-		margin-left: -10px;
+		
 	}
 	
 	.menu ul li{
