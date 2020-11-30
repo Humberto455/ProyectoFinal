@@ -1,145 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="Servicios.Css">
+ <html>
+	<head>
+		 <meta charset="utf-8">
+		 <link rel="stylesheet" type="text/css" href="Servicios.Css">
 		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-    </head>
-
-    <body>
-        <title>Agencia de carros </title>
-        
-
-        <div class="barra">
-            <div class="menu">
-                       <ul>
-                           <li><a href="Login.HTML">Inicio</a></li>
-                           <li><a href="#">Modelos</a>
-                           <ul>
-                            <li><a href="model1.html"> Virtus</a></li>
-                            <li><a href="model2.HTML">golf</a></li>
-                            <li><a href="model3.HTML">jetta</a></li>
-                            </ul>
-                            </li>
-                           <li><a href="History.HTML">Historia</a></li>
-                           <li><a href="ubi.HTML">Ubicacion</a></li>
-                           <li><a href="Servicios.HTML">Ayuda</a></li>
-                           
-                       </ul>
-                       </div>
-        
-        </div>
-
-        <!-- Contenido  -->
-        <h1 id="sac">Servicios Al Cliente</h1><br>
-
-        <div id="img1">
-            <img src="http://agenciadepubli.com/wp-content/uploads/2016/02/agencia-markting-online-2.png">
-        </div>
-
-        <div id="T1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique mi nec felis imperdiet, viverra porttitor est scelerisque. Duis bibendum quis quam dictum dapibus. Sed vulputate eleifend est in venenatis. Integer hendrerit vitae velit sed eleifend. Aenean ultricies tellus nibh, eu lacinia quam hendrerit a. Fusce pulvinar vehicula mauris, sed tempus nunc condimentum vitae. Mauris tempor justo vel feugiat porttitor. Ut id libero ligula. Aliquam erat volutpat. Nulla rutrum nisl at magna accumsan condimentum. Proin a rhoncus felis. Nullam eleifend nisi justo, vitae tempus turpis tempor nec. Maecenas in fermentum ante. Vestibulum in venenatis massa.</p>
-        </div>
-
-        <div id="T2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique mi nec felis imperdiet, viverra porttitor est scelerisque. Duis bibendum quis quam dictum dapibus. Sed vulputate eleifend est in venenatis. Integer hendrerit vitae velit sed eleifend. Aenean ultricies tellus nibh, eu lacinia quam hendrerit a. Fusce pulvinar vehicula mauris, sed tempus nunc condimentum vitae. Mauris tempor justo vel feugiat porttitor. Ut id libero ligula. Aliquam erat volutpat. Nulla rutrum nisl at magna accumsan condimentum. Proin a rhoncus felis. Nullam eleifend nisi justo, vitae tempus turpis tempor nec. Maecenas in fermentum ante. Vestibulum in venenatis massa.</p>
-        </div>
-
-        <div id="img2">
-            <img src="https://i1.wp.com/manzanitas.online/wp-content/uploads/2019/08/iOS-Verification-Failed.jpg?w=810&ssl=1">
-        </div>
-
-        <div id="T3">
-           <h2>¿Este es tu problema?</h2>
-           <p>Sigue los siguentes pasos</p>
-           <ul>
-               <li>hdyejsy</li>
-               <li>shysgey</li>
-               <li>shsyges</li>
-               <li>ssyshga</li>
-               <li>ssysgst</li>
-           </ul>
-        </div>
-
-        
-
-
-
-        <div id="copyright" class="copy">
+		<title>Servicios</title>
+	</head>
+ 
+<body>
+	<!--Menu-->
+		<div class="menu">
+			<ul>
+			<li><a href="Login.HTML">Inicio</a></li>
+			<li><a href="#">Modelos</a>
+				<ul>
+				 <li><a href="model1.html"><p>Virtus</p></a></li>
+				 <li><a href="model2.HTML"><p>Golf</p></a></li>
+				 <li><a href="model3.HTML"><p>Jetta</p></a></li>
+				 </ul>
+				 </li>
+			<li><a href="History.HTML">Historia</a></li>
+			<li><a href="ubi.HTML">Ubicacion</a></li>
+			<li><a href="Servicios.HTML">Ayuda</a></li>
+		</ul>
+		</div>
+	<!--Menu-->
+		
+	<!--Texto-->
+		<div id="txt">Servicios Al Cliente</div>
+	<!--Texto-->
+		
+	
+		
+	<!--imagenes-->
+	    <img id="img"src="http://agenciadepubli.com/wp-content/uploads/2016/02/agencia-markting-online-2.png">
+		<img id="img2" src="https://www.consultoriadeproceso.com.mx/images/cursos/ac/Atencion-Servicio-a-Clientes.png">
+		<img id="img3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAADKCAMAAAC7SK2iAAABhlBMVEX///+P0+04W26Bt9P3rXX4s3p2r8VNdIc8X3I9NydtZEhfjq9mm7cxU2GlzO5aiaCU0/KTyu8xSlfbm2blpHAcRHOCtt49an+q0fEiTmMxVmpdlrQcSmH29/hFb4N5sckWOEjtrXYuYaOFxeCMo6/i5+osLiFWe41mhpa0y9mNw+XY3eCntLy8ydB4akxikKhto7mCt9R2i5hYdITE1+KUssh4rMcyKxdjWTghP018or2krbIzZHqMhXEnKx+SeFVbbXdDWWVwVzyXkYH+8+vemFtnoss+bJB1hIzMy8ibrrl+mKbR2t6yrqGwv8csJAqgdVDHjmF+dl5EPi/KmGm+vbqhgVqiwdJkk72NmJ5PYWyUkYxzcGeamJJzgopSTUBoZFq7t6t+X0FeSzSTbUqwf1eGclH11r3/6tZTV0Di29L7vI8IHxiGo7Hj08b/4sr/zKfZvKTQpH36zrC7m3/gqnzX6vmlj3vB3fTZro1aXFxEdK/BrqNUiL5EdrEwZKZRfKYtVoTU3Qi5AAAT0UlEQVR4nO2d+1/TWPrHs6WYyqVIqaSAKUUaUiilXBQJ1BG0zNoLdUZARR28O3xh5+uMbl2d1d2d/3zPJUlzOefkpE214+bz8ofSkp7zPs/nec6TNBVBCBUqVKhQoUKFChUqVKhQoUKFChUqVKhQoUJ9k5KVQmNra2uxkJflrz2XLyi5cLStZUztHC3+j9AXbkPsxM7D7aOjo9vbOwn443bjm6eXt4YzGW3ndiNvoir1re0EWIsj5WtOrNuStxBj3vWC0gAZoB19u5Gv74CA63ktK5W9R48eP3786KdnCnwqf6xlEoWvO8Gu6SijDS+iR/Lh4/07d67punNn/1EFPFvfzmRuf4uBl7czGgarPL5259p5m67deXIIXllMZB5+exmvPNSwnStPndxYd56AyCs7mUTPsoNWZDFbq9WyiwXFhzllQI6YHpHBEfwj5I0eZVequVJJzOVqqzlRKuWq3LM81smf3qGBQ9s/UQC79rAH872+WkqvGjsyCH9NLNXqXEduZTS0oz2lhhyz7+cFeUe7zTshuY4dWPXlQP9SaiW1gUIny3rfLRdypRpH5BUtA0u78ohNDpUX8prGtccpjVWpJKq5Wi2nSiU1yxeEdtSQRNhsypVbd5cGBu7eArsxXICCKnlP9FjbBkcy0tzieRlYZMc7hkpWknLVOl53Waln1VKu0J3QV0s18MantwY2BrA2Bu4ODNyqCHK2VPU4tq5lQBI/8QaH7E+h5bc83lHOSmLV4cB6rZTrRuSrpUUIbnCb2riuCIulLPvgbe1IEB5zkYM6/5NQ8Ap7XZWqyIF71+9CB+6dogWo5zyj4F8NSL7n5MaqgFcbrIPzMOgVVmm3SxF2Msw3bEg5UDSVvaUNPRQbG2AFrj8DPRHyZpBSpKwgX3eF3GTPSqxad5Q5BrXdwjbHtvwjkO3bLHLIJ+8NOOezcfdUKEi5YNlrqqzcpYCDISuyuso4ejhTEPIWuz//4SaTfV+WNc19dmeoDuIgVFzgaCbPwKu1IMnrpYJMJweSCyV6galrGkgWA33uxVg0Gh17wYj8tYqwnVmkvZ2sgri6i47Ovgc8EeTpX02ljoUHvCXk6Gu9lbltKXIvolg36exsx1elPD33YNxrYnCWV0oNmUUOBlQaJWq2owjuG0Ef09GjP9DZnwoKtcYr6SwzDhunikR1jG81JOWZB/qekqbVZDkB6rtikL+MmhqjBv4JOIiW7Itek7krZIMLey0n3GKSg42F7vg8THWzykWt+vHmHJF+H1qFnLGyWhOYZQcU3Xxg2S6nq+TRXh0stZa6SlvqAkzbCkb/7seoXWOg2H83N+dYgX0ZbIhH5IUs1U/ZDgRhUIMq8gqo3gT018n+/pl7xk+gxlOSHVW5Q9TQzD2PupUce/Xqh5fPn998Ye73+zI+iiCwwh7JNzAgZNMBOb4gKbKBew/oxuulpaUbB/1ISR1eVmguO8psGejnkwR06xro2Q8M36CU+NoqOfnuJV8bDzeUeoneFfhSI63gqMM4I83MzPSbOsDoskipc8cm+twrFjnSK73MCfXMQ9KbyWqVhL4EA2GkH6zxzD6YX1VVRg3NvX6yIPuSDCdFFCpYCP2FJzlgn0Obm5DP7JDeDHpLR1+6YTjw9QGOhJ5+GxVBDOgsJqsKwnUQcwp5f/8rUOZkgYb+EKLDMjfnrHFEvQAtzWOETsrXPLDyLRznGYIDkes3TgOrc9mcAIc7oKInYVWVVcqZ646Bvs9DHn05B7s5QSaj10ExheivZ8hTmXmN0FcDRV+iDAbHWxq45YEO9nVrN8N2/LU9KjroruC5M30yIPs2ZNiJBIa+t0H3u4FOMbyJ7l3koH6cO3+nQjU8RAebG63sAIFaFxw6KHNgOAZ6/2twwiSLlM4Z5brMm+otdGKF19GTjLnAuhMQekEUFaHigX4ITitYFZ4ffew7eNJK29wgemVjgJ58/TdAZxkQel4S03lBZhseVJa6RGaXH6JrjPs+0M8r1JYGtFfC6Qaj7gD06wLrFNqHamlRqgs/373BQh8og8ZHlAg9VH4nAa9JgvN1fsODZk7Y0nYI76bkwBgKq+T23wDJJzAvGvFKlkQx3TiJLjHQkwM3zkDfLKbdNV7eSSQS2wLsafjRnwrog6qE68KPrKbBubF8l43+TFDEdABhr0P0rAf6/x1Ey7m0KLqvCB4BggTsyyrXvhvz5kbo134Cv/8QHud8uypIvqpwcp2F/hokXx44sPNWtgDRayfRGcZoMwcz0VNVBHLOVU5AZQThrHmeE/3V3LVPZUGGS6Y5zlvlHJxLOXpjiT6X/qWl/jKcdOeFDr6LmHsTZQwGFT0VSeh1DaEr5egYL/oPc6DrA3sbPNBR5GU4RA6iM9qrgXvRN1XgQKnj81ZoeFE99ULvr6Dfcw63hdC1wgko3H/jQ38OT+rLDXSg45N2RZ8L24HJ6JsaRO/4U3pY5sDu5kV+tpgWCbl+hNEXT6LJly+ZJ+umbv4NlMOyfqC90CF08dRrLtE3MPkCQM/Bt6mfeQz37pe0SKjwtzHB0QkXNVISrlD5GGdKxT4XSC55hiH6/2Ig6PCzZbC7eSR79ASvEBk9cVzmR0cq7yRI6HCQdMErDP156MDOc12Qa1Jaygrs8c5k4DHJ3Udg3yZ2fKL3yxkSOuwdwO72zqPwnBUgutoxOVC9mm0IZRb7WVlJS2LWvc64zIHdzR/6WR2jO3IdNxlgd2OS4wJPO6NoRwz2s7JQLRFv763o6MqZL/Rf9QLvupeqChyYE35lswuroLEM8MMnQaCnexl//E6Qggm0ws++0N8YieJ6w/xitSqz2U8ENS3x3ODDL6rPzoQC9baKbYy+WPaFXj7Gh1HvpPqVTl4GXRgh9bqD/o7xkXYhg3c3wY/jzwRc4LUK7W2pc4meBP0BOxJtnX8jnLaYOoLs2rHgY2ePlnGBh3dd0dCpQQdnbQHfVgFFybDmmqt/taqxDb/yIAj82f5OQAWeeaMwreaeKSpzNm2KvNQzx6JHSZHzBbhJveEmFxZBldtmfh+Gluy/5tJducP2xB32t2timvdeNT72n+H1DW3bI3S07ebY3VEGoxPnSH8HPRx/78BT6kDMhYea992SRMfPPAr0PhqrZMdF4L+D3sFHUeFJ93LrJmqmCNkHUi+ojxkJ4yVt7G8lMb3qo6hwVPl+2PczbhyzzMVJ3lxLB3FFjjZc0sbeFKXjj34O90Y/g7eP85m2ab9g8RaeqXbvSwQQ3cI+8/Yfyaafw73R3zUy9Dvm7GomZ2xhEMW1gG4oIOn9p13AbowI12H3k59dtN8T/ZPmvBZJVTNpZZ85Tq8dlNuB4tOH1CFkt+gw/t7H8e+8yA80/m9ANJNW9pnmP5LJ7qHL8VTq0EZeSKU++HgDL8cnYcvLOxk0E5sDP3Yv1d8D9FTBQj4Pfk75cTxze3t18LuPb/x8iBdsUUju/hb3EwZ/SiGZIzbRj74cz7L8U03jaGWsk5m3kT8Dz/hG4lL9fnEIs+MRdz/in+KbV/zEndbNzvwO+nauDR0LOdDKfgjnEvyZi3LllxGgYrzFvvsbfpxaAS/84uP7Nk1ylu9AcuJNU2R9wKM3LVUn5a/wcKh+f2hwcARpRcedb+5+0h+mhvBL6/OcNaZJ+hAmic7PuRNdadSK+vBvce7N45825wOLu3xlcxAK441sGrypivEgrr80NTW1zEXfHCOwa/zk8pWraMAFC3vTMpliI4A6r8BwD1rRDcenxh8Y6CvGS0NDQ1NTQ/c9xwXoLvbkJUD+O0djqMxvGpNZN2bw0ag6qdQ6fmmI14FEgbUdtEjnM5f6n5fH7X4H4yF50++OEdjvXbr0dMwD3ZiSsdamAw/NR0XTgRwxIKu+OeiQ3fGfL1/+Z9zmdxT1Fj3jegFCd7CPjf14b4yJjsJtD4PhwPhnZ/JhB06xZkGT7AQ3R8RLPX4Z6LPNYnbBcSnvDU4DEHvSRg61Sz0JrN8nOdBw/OfLRvatOx04dfWKT/T7JPTBluMt6EUCOB6XMuiHUZ19LInpk2M6+adRYnOk0ByoOx5OZtzmd5sD/dHTg44dPzoKDP/vhVHTYkUS+zL5zePx+KHObhMgJ/ehLnJzMsjxcRgGnH0LTnAD/yr3jneVNhZe6jhC/9fo6KjFYm56ctjfA/R4w82+ewhfIBxwhejAQdPxC/+G6DAMqU1U4kgOpGWfUwoj6HCpAfO/UNRH46bFSKYnhj0VJ7LvzqPnCVWZFHR9VNhXx0cfQMOPtvxOsuAUZ7knBN2Cvg7I0UqPwwcMcmLY5TjWfQf7ffy02/GEoLeWOw6TbxyHodVhkBzIF3Zi0FvsxVE02uXL34MHQyz0oXX3m7+PG+zWkDeNZ92OZ4ZhBTrwsx4G7HfKZKa4st0Iet9foGYN9RmavXBh/Hug8QsXLqwvAyFzrwN5hr1+NLxgUrbIP5rPrTgvSM4z0YdGcfKhMMRNNxAszxV2M+gYvS3N6gNetb5v41jThhPFlMl5oJP/Zj4Tj2kTRzZ6tgNHFnQHfgboK4yg84X9aoDoZnWpZwHUMFSsxRlv7uqbmqkE+A1t4tg8BTaCPmQzoOnAaeDABejAB8CB01YHutHn+YM+uN45Ogq7XFidmJgc1qVZ0ONvd/VNDStVNH5pAv+HG3IAc/kLd9jvB4HeZ651YSt9aWIyEjHIhxObKQv7x92GdSli5q9FJifWGrKZ6UMBoHuGvYXewXDTeLCRdARiQ5lMw2kra9y6DvGVhPlbsVgM0MfEzudiOnDIC721qU+1PxxItaIa06kd6Akr+OZfLeym32HUY1gRTN/BXEx02kkFAX2w/eFAuK3cVnLgeAv7xYsPLOyW3xqOmYrE0sGge+1vHaPPLouTdm4Hu9gK8x8XL15sbfRXE0R0RD8y3S56Xzvos20MdC5G4LbDm45PPQDkF/8ww67SyFHit0u//qXQY2RuK7zp+PGLSKblXYnupm+j12ihe5X4ztCLlJDb4FU96P/B6Bd18s0EC1w3vv858Tc1FnTiEl+wyPXiLBPcQNcdP25EfRyvhEq2up29+GXQiT3NBbvsL46wgm42dNjxC+PjKOx/jI8v2PzOiDqQ37DPfhl0VtCtG5eKgz7+PUT/D3hg9Tub3hZ2lgHbQLdcFCG2UG0GfdgmTD7+wECH7KLtN7jCznRgR+jEPqLNoNvYQR8PeU3DI8sn+NCtYedB72sLndjTMEZjZroNTEVB18scemjzO7vWzVLmQkZf/xLoHuXdxj5uQf8ePY5ZX2ZVusgyVxwI6F49vBWdWE2po6nMPR3Ud3SLO3b8kJnqcHODFY876DGJEnYieWtvCwCdpj4LefHcslNFXSMq1NAK0OBfkQYhejEmxehBj6B/7rD3CLo16H0r8OrROT+absl8zrp0Iy32tA/0WR/o1ovwfjpma9An1wH5CsCf9ofPFDnbveQH3Xr1188lKmvQJ5f1y4b+g0/VsiUL0t7TaQddaA992lrjJof6WloJht6KHjnHPa8+KvpiFathqFBAt0qN0Ns5smzlfbLYZ1MQ9EUrusg9L8tVaccl2VzaIUlKi6ZUfnTJtpGNrPS51CH8iLXs84fdgu749DMnssSPPmu7RDGpusk7Db1qQ+f2oyXo837Q+X1lR4+IBPQOQy/G2op6676AYj0PBf93c/QfbHugc2/sDvQ0DX2lbXipLfRZC4xkk6B2Bz1GQ2/f97G20KfTNDSBTS5y+8qBHqGjtxn65cgXRgdSDVmyBsvsMeHM7OionQsUvk305U7QGbJuihEHOmF36wi+2B56kTr5ztCtcqAPeZAjeD/oI/azOZVuQCx9EPXLoxeZ1IZ8BF61kcecPnZ2ZoboExZ8/C5TTsOT2rmO4NNsdP8SsoZWdeUMmeXNpJMcsi2ZHT1CaudaVl+wiHMRpMDR3ZKdUgzldRUMLeqqZrM1Bzq1nYNaGLXKWAI2euwLoLcnxYFObedQ1EdH3fDsqC87rlkxHciVwcGhOy5JSn7QR73R7XtbbLKADVgnGBCrtlpDomZw19DZ7ZwTHcIzyacde9uEj284UBK4a+jsds6NPspGd27rE138xrJfdY7OLvG2U9YeR2e2c0R0ZneX7l30/ISfdm6BhM5s6x3beqSH/sKhC33EP3ofo69xbOuxHkaP+EXHjS/N9M5tvafRVVYTb+tkkXR0Gnvxz4TObOeYIpjeua33NrrUx3nuxsWuOtB7qcy5ujnGhUkvrbjZHdt6T0VdWPPV03iwuxLesa1H1nrpT9hWA0R3szu39e79d0ttyHnWynN1jiXmtj75Ff5Iu3G1Im9evzA+x5Fr9rBPFtsuc1jWhHdt61/B76uXJrAmI5NI5pzSa46o812Y5GN3nq17/FHYrqjGvvHZis5s53yyj0TsV+GrhUaj4HBg76CzL0z6Y59Wnes6YRG236Vus6/yo4sd5rqVXfQeruvoOX505tU5n+yS93C9hN5BO+diZ32rpAfRJwNBR+zLHKP2FHon7Zyd/U+Hbm7sRr1bMeR8wS3rK9PnPL5LhIfrdpfjA93cis1PSMwPPlw3KbTu71p3CrCfc+5tRPUUuqcmXXIum97CfHvogarL6LLzrLyH1HX0rw1IV4jePfT/ZcPrZ8yXdE245C7b1DL+Z0In3G3ivMuk4fqQ37hLZ3VNl7lpXaIuoPf6ORcwqD863l251k821s91k8Ri6yYJx/qZC6gb8Gtcs/paci7f155PqFChQoUKFSpUqFChQoUKFSpUqFChQoUK5dJ/AYL9z9pVvKrVAAAAAElFTkSuQmCC">		
+	<!--imagenes-->
+		
+	<!--Parrafos-->
+		<div id="p1">
+			Lorem ipsum dolor amet csectetur cing quam fusce, a dui duis augue consequat congue quisque. Blandit dui feugiat integer quam primis montes odio, nunc litora fermentum dignissim in inceptos eget id, leo vel sed eu curabitur viverra.
+		</div>
+		
+		<div id="p2">
+			Mi magnis posuere egestas bortis massa a conubia elementum eleifend id. Tempor dictumst andit varius leo vulputa eget tortor tellus sapien, blandit penatibus placerat et imperdiet mattis pulvinar arcu, ut orci euismod luctus fames pharetra.
+		</div>
+		
+		<div id="p3">
+			Hendrerit montes tempus dictum purus fusce mi varius congu bortis massa a conubia elementum eleifend id. Tempor dictumst nisi blandit varius leo vulputae felis, non blandit morbi etiam natoque dignissim mattis fames sagittis aliquam, n
+		</div>
+	<!--Parrafos-->
+	
+	
+	
+	<!--Copyright-->
+	 <div id="copyright" class="copy">
             <p id="p"> ®PROPIEDAD DEL CURSO DE CODELLEGE</p>
-        </div>
+	<!--Copyright-->
 
+	<!--redes-->
+		<div class="social-networks">
+			<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+			<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+			<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+			<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+		</div>
+		</div>
+	<!--redes-->
+		
+	
+	<!--Comentarios-->
+		
+		<div id="comentario">
+		<form id="coment" onsubmit="obtenerdatos()">
+		
+			<div class="row">
+				<label class="required" for="name">Nombre:</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />			
+			</div>
+			  
+			<div class="row">
+				<label class="required" for="email">E-mail:</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />				
+			</div>
+			  
+			<div class="row">
+				<label class="required" for="message">Mensaje:</label><br />
+				<textarea id="message" class="input" name="message" rows="5" cols="30"></textarea><br />		
+			</div>
+				
+		</form>
+
+			<input id="button" type="submit" name="btn1" value="Enviar" onclick="obtenerdatos()">
+		
 		<!--Comentarios-->
 		
-        <div id="comentario">
-            <form id="coment" >
-              <div class="row">
-                    <label class="required" for="name">Nombre:</label><br />
-                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                    
-              </div>
-              
-              <div class="row">
-                    <label class="required" for="email">E-mail:</label><br />
-                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                    
-              </div>
-              
-              <div class="row">
-                    <label class="required" for="message">Mensaje:</label><br />
-                    <textarea id="message" class="input" name="message" rows="5" cols="30"></textarea><br />
-                    
-              </div>
-                
-              <input id="button" type="button"  value="Enviar" onclick="obtenerdatos()">
-            </form>
+		<!--Extra-->
+			<div id="extra">
+				Términos y condiciones por Volkswagen de México
+				Este sitio es oficial de Volkswagen de México, S.A. de C.V.; la información aquí referida, así como las ilustraciones de este sitio están de acuerdo a las versiones y equipamientos ofertados por el proveedor dentro de la República Mexicana y son las más recientes en el momento de hacer esta publicación.
+			</div>
+		<!--Extra-->
 
-            <!--Boton Volver-->
-			  <input id="button1" type="image" src="https://www.holaprincesa.es/img/cms/BOTONES/volver-03_1.png" onclick="obtenerdatos1()">
-			
-			
-			<!--redes-->
-			<div class="social-networks">
-        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
-        <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
-        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
 		
-    </div>
-   </div>
-		<!--redes-->
-            
-            <!--Extra-->
-		<div id="extra">
-		Términos y condiciones por Volkswagen de México
-	Este sitio es oficial de Volkswagen de México, S.A. de C.V.; la información aquí referida, así como las ilustraciones de este sitio están de acuerdo a las versiones y equipamientos ofertados por el proveedor dentro de la República Mexicana y son las más recientes en el momento de hacer esta publicación.
-		</div>
-        
-         
-           <!--jAVASCRIPT-->
-			 <script type="text/javascript">
-                //funcion boton enviar 
-                   function obtenerdatos()
-                   {
-                     document.getElementById("coment").style.display = "none"; 
-                      document.getElementById("button1").style.display = "block";
-                   
-                       var nombre = document.getElementById('name').value;
-                       var Email = document.getElementById('email').value;
-                       var mensaje = document.getElementById('message').value;
-                       
-                       console.log ("Nombre: " + nombre)
-                       console.log("Email: " + Email)
-                       console.log("Mensaje: " + mensaje)
-                   }
-                   //funcion boton volver 
-                   function obtenerdatos1()
-               {
-               document.getElementById("coment").style.display = "block";
-                document.getElementById("button1").style.display = "none";
-                document.getElementById("coment").reset();
-                }
-                   
-               </script>
-    </body>
-</html>
+		 <!--jAVASCRIPT-->
+		<script>
+	
+	
+		function obtenerdatos(){
+			var datos = {
+			
+				nombre: document.getElementById("name").value,
+				email: document.getElementById("email").value,
+				mensaje: document.getElementById("message").value,
+			}
+			
+			console.log(datos)
+			
+			}
+
+		</script>
+		 <!--jAVASCRIPT-->
+		 
+ </body>
+ </html>

@@ -16,9 +16,9 @@
 			<li><a href="Login.HTML">Inicio</a></li>
 			<li><a href="#">Modelos</a>
 				<ul>
-				 <li><a href="model1.html"> Virtus</a></li>
-				 <li><a href="model2.HTML">Golf</a></li>
-				 <li><a href="model3.HTML">Jetta</a></li>
+					<li><a href="model1.html"><p>Virtus</p></a></li>
+					<li><a href="model2.HTML"><p>Golf</p></a></li>
+					<li><a href="model3.HTML"><p>Jetta</p></a></li>
 				 </ul>
 				 </li>
 			<li><a href="History.HTML">Historia</a></li>
@@ -29,25 +29,27 @@
 <!--Menu-->
 		
 	<!--Texto-->
-		<div id="txt">Nuestras Tiendas</div>
+	<div class="virtus">
+		<h1> Virtus 2021 </h1>
+			<div id="centro">
+				<img src="https://s7g10.scene7.com/is/image/volkswagenag/vw-virtus-diseno-1?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTgwMCZoZWk9NDUwJmFsaWduPTAuMDAsMC4wMCYwYmQw" style="border-radius:20px" width="1000px" height="650px">
+			</div>	
+	</div>
 	<!--Texto-->
 		
 	
 		
 		<!--mapas-->
 		<div id="map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115043.46997162435!2d-100.47108173166164!3d25.70083352121424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866297051decabd7%3A0xc37348162723266c!2sVolkswagen%20Cumbres%20Monterrey!5e0!3m2!1ses!2smx!4v1605811464296!5m2!1ses!2smx"
-			width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<img id="imgmap" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB158zmO.img?h=416&w=624&m=6&q=60&o=f&l=f" >
 		</div>
 	
 		<div id="map2">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115069.3780179522!2d-100.47165023223982!3d25.67401073372417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662960028ef1453%3A0x7172964807c036ab!2sVolkswagen%20Gonzalitos%20-%20Car%20One!5e0!3m2!1ses!2smx!4v1605811579914!5m2!1ses!2smx"
-			width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<img id="imgmap2" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB158zmO.img?h=416&w=624&m=6&q=60&o=f&l=f" >
 		</div>
 	
 		<div id="map3">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115036.69560680831!2d-100.44860603151045!3d25.7078427679476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662945df0ff60d9%3A0x52ff8063eca0f219!2sVolkswagen%20Villauto%20Monterrey!5e0!3m2!1ses!2smx!4v1605811655415!5m2!1ses!2smx" 
-			width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<img id="imgmap3" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB158zmO.img?h=416&w=624&m=6&q=60&o=f&l=f" >
 		</div>
 		<!--mapas-->
 		
@@ -146,11 +148,10 @@
 					
 			  </div>
 				
-			  <input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+			  
 			</form>
+			<input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
 
-			<!--Boton Volver-->
-			<input id="button1" type="image" src="https://www.holaprincesa.es/img/cms/BOTONES/volver-03_1.png" onclick="obtenerdatos1()">
 			
 		
 			<!--Extra-->
@@ -163,26 +164,17 @@
 		
 		 <!--jAVASCRIPT-->
 		 <script type="text/javascript">
-			//funcion boton enviar 
-			   function obtenerdatos()
-			   {
-				 document.getElementById("coment").style.display = "none"; 
-				  document.getElementById("button1").style.display = "block";
-			   
-				   var nombre = document.getElementById('name').value;
-				   var Email = document.getElementById('email').value;
-				   var mensaje = document.getElementById('message').value;
-				   
-				   console.log ("Nombre: " + nombre)
-				   console.log("Email: " + Email)
-				   console.log("Mensaje: " + mensaje)
-			   }
-			   //funcion boton volver 
-			   function obtenerdatos1()
-		   {
-		   document.getElementById("coment").style.display = "block";
-			document.getElementById("button1").style.display = "none";
-			document.getElementById("coment").reset();
+			
+			function obtenerdatos(){
+			var datos = {
+			
+				nombre: document.getElementById("name").value,
+				email: document.getElementById("email").value,
+				mensaje: document.getElementById("message").value,
+			}
+			
+			console.log(datos)
+			
 			}
 			   
 		   </script>

@@ -16,9 +16,9 @@
 			<li><a href="Login.HTML">Inicio</a></li>
 			<li><a href="#">Modelos</a>
 				<ul>
-				 <li><a href="model1.html"> Virtus</a></li>
-				 <li><a href="model2.HTML">Golf</a></li>
-				 <li><a href="model3.HTML">Jetta</a></li>
+				<li><a href="model1.html"><p>Virtus</p></a></li>
+				 <li><a href="model2.HTML"><p>Golf</p></a></li>
+				 <li><a href="model3.HTML"><p>Jetta</p></a></li>
 				 </ul>
 				 </li>
 			<li><a href="History.HTML">Historia</a></li>
@@ -54,30 +54,31 @@
 		<!--Parrafos-->
 		<div id="p1">
 		<ul>
-		<h1>Volkswagen Cumbres Monterrey</h1>
-		<li>Av Paseo de los Leones 1265</li>
-		<li>Teléfono: 81 8073 6000</li>
-		<li>Abierto ⋅ Horario de cierre: 20:00</li>
+			<h1>Volkswagen Cumbres Monterrey</h1>
+			<li>Av Paseo de los Leones 1265</li>
+			<li>Teléfono: 81 8073 6000</li>
+			<li>Abierto ⋅ Horario de cierre: 20:00</li>
 		</ul>
 		</div>
 		
 		<div id="p2">
 		<ul>
-		<h1>Volkswagen Gonzalitos - Car One</h1>
-		<li>Av San Jerónimo 101 Poniente</li>
-		<li>Teléfono: 81 8073 6000</li>
-		<li>Abierto ⋅ Horario de cierre: 20:00</li>
+			<h1>Volkswagen Gonzalitos - Car One</h1>
+			<li>Av San Jerónimo 101 Poniente</li>
+			<li>Teléfono: 81 8073 6000</li>
+			<li>Abierto ⋅ Horario de cierre: 20:00</li>
 		</ul>
 		</div>
 		
 		<div id="p3">
 		<ul>
-		<h1>Volkswagen Villauto Monterrey</h1>
-		<li>San Nicolás de los Garza, N.L.</li>
-		<li>Teléfono: 81 8305 2900</li>
-		<li>Abierto ⋅ Horario de cierre: 20:30</li>
+			<h1>Volkswagen Villauto Monterrey</h1>
+			<li>San Nicolás de los Garza, N.L.</li>
+			<li>Teléfono: 81 8305 2900</li>
+			<li>Abierto ⋅ Horario de cierre: 20:30</li>
 		</ul>
 		</div>
+		
 		<!--Parrafos-->
 	
 	<!--Imagenes carrusel-->
@@ -93,18 +94,18 @@
 			<li id="slide3">
 				<img src="https://okdiario.com/img/2015/11/wolfsburg-volkswagen-e1475341870259.jpg"/>
 			</ul>
-	  <ul class="menu1">
-		<li>
-		  <a href="#slide1">1</a>
-		</li>
-		<li>
-		  <a href="#slide2">2</a>
-		</li>
-		 <li>
-		  <a href="#slide3">3</a>
-		</li>
-	  </ul>
-</div>
+		  <ul class="menu1">
+			<li>
+			  <a href="#slide1">1</a>
+			</li>
+			<li>
+			  <a href="#slide2">2</a>
+			</li>
+			 <li>
+			  <a href="#slide3">3</a>
+			</li>
+		  </ul>
+		</div>
 	
 	<!--Copyright-->
 	 <div id="copyright" class="copy">
@@ -113,11 +114,11 @@
 
 		<!--redes-->
 			<div class="social-networks">
-        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
-        <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
-        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+				<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+				<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+				<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
 		
     </div>
    </div>
@@ -127,7 +128,7 @@
 		<!--Comentarios-->
 		
 		<div id="comentario">
-			<form id="coment" >
+				<form id="coment" onsubmit="obtenerdatos()">
 			  <div class="row">
 					<label class="required" for="name">Nombre:</label><br />
 					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
@@ -136,7 +137,7 @@
 			  
 			  <div class="row">
 					<label class="required" for="email">E-mail:</label><br />
-					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+					<input id="email" class="input" name="email" type="email" value="" size="30" /><br />
 					
 			  </div>
 			  
@@ -146,12 +147,10 @@
 					
 			  </div>
 				
-			  <input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+			
 			</form>
 
-			<!--Boton Volver-->
-			<input id="button1" type="image" src="https://www.holaprincesa.es/img/cms/BOTONES/volver-03_1.png" onclick="obtenerdatos1()">
-			
+			 <input id="button" type="submit" name="btn1" value="Enviar" onclick="obtenerdatos()">
 		
 			<!--Extra-->
 			<div id="extra">
@@ -162,30 +161,21 @@
 
 		
 		 <!--jAVASCRIPT-->
-		 <script type="text/javascript">
-			//funcion boton enviar 
-			   function obtenerdatos()
-			   {
-				 document.getElementById("coment").style.display = "none"; 
-				  document.getElementById("button1").style.display = "block";
-			   
-				   var nombre = document.getElementById('name').value;
-				   var Email = document.getElementById('email').value;
-				   var mensaje = document.getElementById('message').value;
-				   
-				   console.log ("Nombre: " + nombre)
-				   console.log("Email: " + Email)
-				   console.log("Mensaje: " + mensaje)
-			   }
-			   //funcion boton volver 
-			   function obtenerdatos1()
-		   {
-		   document.getElementById("coment").style.display = "block";
-			document.getElementById("button1").style.display = "none";
-			document.getElementById("coment").reset();
+		<script>
+		
+	function obtenerdatos(){
+			var datos = {
+			
+				nombre: document.getElementById("name").value,
+				email: document.getElementById("email").value,
+				mensaje: document.getElementById("message").value,
 			}
-			   
-		   </script>
+			
+			console.log(datos)
+			
+			}
+
+	</script>
 		 
  </body>
  </html>

@@ -1,5 +1,6 @@
 body{
 	margin:0px;
+	padding: 0px;
      background-color:#EEEEF3
 }
 
@@ -18,74 +19,81 @@ top:1px
 }
 
  /*Menu*/
-	 
-	 
-	 .menu ul{
-		width:100%;
-		background-color:#6987BF;
-		height: 60px;
-		
-	}
+ 
+ 
+ .menu ul{
+	width:100%;
+	background-color:#6987BF;
+	height: 60px;
 	
-	.menu ul li{
-		display: inline;
-		float: left;
-		width: 110px;
-		height: 100%;
-	}
-	
-	.menu ul li a{
-		display:block;
-		text-decoration:none;
-		cursor:pointer;
-		line-height: 60px;
-		text-align: center;
-		color:#DBDBE1;
-		font-size: 19px;
-		font-family: "Helvetica";
-	}
-	
-	.menu li ul li{
-		margin: 0;
-		float: left;
-		display:inline;
-		width: 100%;
-		height: 40px;
-		text-align: center;
-	}
-	
-	.menu li ul a{
-		line-height: 60px;
-		color:gray;
-	}
-	
-	.menu li ul{
-		display: none;
-		position:relative;
-		z-index: 1;
-		background-color: gray;
-		width: 100px;
-		height: 120px;
-		left: 15px;
-	}
-	
-	.menu li ul li:hover{
-		background-color:#4084DB;
-	}
-	
-	.menu li:hover ul{
-		display: block;
-		float: left;
-	}
-	
-	.menu li:hover a{
-		color:white;
-	}
-	
+}
+
+.menu ul li{
+	display: inline;
+	float: left;
+	width: 110px;
+	height: 100%;
+}
+
+.menu ul li a{
+	display:block;
+	text-decoration:none;
+	cursor:pointer;
+	line-height: 60px;
+	text-align: center;
+	color:#DBDBE1;
+	font-size: 19px;
+	font-family: "Helvetica";
+}
+
+.menu ul li a p{
+	margin-top:-9px;
+	margin-left:-10px;
+}
+
+.menu li ul li{
+	margin-left:6px;
+	float: left;
+	display:inline;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+.menu li ul a{
+	line-height: 60px;
+	color:gray;
+}
+
+.menu li ul{
+	display: none;
+	position:relative;
+	z-index: 1;
+	background-color: gray;
+	width: 100px;
+	height: 120px;
+	left: 0px;
+}
+
+.menu li ul li:hover{
+	background-color:#4084DB;
+	margin-left:0px;
+	width:100%;
+}
+
+.menu li:hover ul{
+	display: block;
+	float: left;
+}
+
+.menu li:hover a{
+	color:white;
+}
+
 /*Menu*/
 
 /*textos*/
-    #txt {
+    /* #txt {
 	   text-align: center;
 	   font-family: "Arial Narrow";
 	   font-weight: bold;
@@ -93,11 +101,13 @@ top:1px
 	   padding-top: 10px;
 	   padding-bottom: 10px;
 	   color:black;
-	}
+	} */
  /*textos*/
    
    /*parrafos*/
 #p1 {
+	margin-left: 5%;
+	margin-top: 49%;
 	background-color:#6987BF;
 	width:700px;
 	height: 220px;
@@ -125,6 +135,8 @@ top:1px
 
    /*parrafos*/
 #p2 {
+	margin-left: 5%;
+	margin-top: 49%;
 	background-color:#6987BF;
 	width:700px;
 	height: 220px;
@@ -152,6 +164,8 @@ top:1px
   
     /*parrafos*/
 	#p3 {
+		margin-left: 5%;
+		margin-top: 49%;
 		background-color: #6987BF;
 		width:700px;
 		height: 220px;
@@ -178,22 +192,29 @@ top:1px
 }
 /*mapas*/
 
-	#map iframe {
+	/* #map iframe {
 		height: 100%;
 		width: 100%;
-	}
+	} */
+	/* PRESENTACION CARACTERISTICAS */
 	#map {
+		
 		outline: 1px solid blue;
 		margin: 2em 10em ;
 		height: 220px;
 		width: 320px;
 
 	}
-
-	#map2 iframe {
+	#imgmap{
+		width: 320px;
+		height: 220px;
+		
+	}
+	/* FIN DE PRESENTACION */
+	/* #map2 iframe {
 		height: 100%;
 		width: 100%;
-	}
+	} */
 	#map2 {
 		outline: 1px solid blue;
 		margin: 2em 10em ;
@@ -201,11 +222,15 @@ top:1px
 		width: 320px;
 
 	}
+	#imgmap2{
+		width: 320px;
+		height: 220px;
+	}
 
-	#map3 iframe {
+	/* #map3 iframe {
 		height: 100%;
 		width: 100%;
-	}
+	} */
 	#map3 {
 		outline: 1px solid blue;
 		margin: 2em 10em ;
@@ -213,24 +238,29 @@ top:1px
 		width: 320px;
 
 	}
+
+	#imgmap3{
+		width: 320px;
+		height: 220px;
+	}
 /*mapa*/
 	
 /*Copy*/
-	.copy{
-		overflow: hidden;
-		background-color:rgb(9, 1, 73);
-		margin-top: 5em;
-		text-align: center;
-		height: 15em;
-		width: 110%;
-		color: white;
-		margin-left:-65px;
-		margin-right:-10px;
-		margin-bottom:-10px;
-	}
-	#p{
+.copy{
+	overflow: hidden;
+	padding-bottom: 65px;
+	background-color:rgb(9, 1, 73);
+	/* margin-top: 0em; */
+	text-align: center;
+	height: 10em;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	width:100%;
+}
+
+#p{
 		margin-left: center;
-		margin-top: 80px;
+		margin-top: 30px;
    }
  /*copy*/
   
@@ -352,9 +382,9 @@ top:1px
 	/*comentario*/
 	#comentario {
 		position: absolute;
-	left:40px;
-	top:1430px;
-	margin-top: 8px
+		left:40px;
+		top:1990px;
+		margin-top: 8px
 	}
 
 	.required{
@@ -397,4 +427,11 @@ top:1px
 		
 		height: 100px;
 		width: 180px;
+	}
+
+	.virtus{
+		
+		text-align: center;
+		margin-left: 8%;
+		margin-bottom: 0%;
 	}
