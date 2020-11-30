@@ -23,7 +23,7 @@ top:1px
  
  .menu ul{
 	width:100%;
-	background-color:#6987BF;
+	background-color:#0F43B2;
 	height: 60px;
 	
 }
@@ -108,14 +108,14 @@ top:1px
 #p1 {
 	margin-left: 5%;
 	margin-top: 49%;
-	background-color:#6987BF;
+	background-color:#0F43B2;
 	width:700px;
 	height: 220px;
 	border-radius: 8px;
 }
   #p1{
 		position: absolute;
-		left:550px;
+		left:500px;
 		top:168px;
 	
   }
@@ -137,14 +137,14 @@ top:1px
 #p2 {
 	margin-left: 5%;
 	margin-top: 49%;
-	background-color:#6987BF;
+	background-color:#0F43B2;
 	width:700px;
 	height: 220px;
 	border-radius: 8px;
 }
   #p2{
 		position: absolute;
-		left:550px;
+		left:500px;
 		top:421px;
 	
   }
@@ -166,14 +166,14 @@ top:1px
 	#p3 {
 		margin-left: 5%;
 		margin-top: 49%;
-		background-color: #6987BF;
+		background-color: #0F43B2;
 		width:700px;
 		height: 220px;
 		border-radius: 8px;
 	}
 	#p3{
 		position: absolute;
-		left:550px;
+		left:500px;
 		top:672px;
 	
   }
@@ -233,6 +233,15 @@ top:1px
 	} */
 	#map3 {
 		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
+		outline: 1px solid blue;
 		margin: 2em 10em ;
 		height: 220px;
 		width: 320px;
@@ -250,7 +259,7 @@ top:1px
 	overflow: hidden;
 	padding-bottom: 65px;
 	background-color:rgb(9, 1, 73);
-	/* margin-top: 0em; */
+	
 	text-align: center;
 	height: 10em;
 	color: white;
@@ -260,7 +269,7 @@ top:1px
 
 #p{
 		margin-left: center;
-		margin-top: 30px;
+		margin-top: 80px;
    }
  /*copy*/
   
@@ -403,8 +412,8 @@ top:1px
 
 	#extra{
 		position: absolute;
-		left:950px;
-		top: 0px;
+		left:900px;
+		top: 10px;
 		width: 350px
 	}
 		
@@ -415,23 +424,12 @@ top:1px
 			font-size: 15px;
 	}
 
-	/*botones enviar y volver*/
-	#button1 {
-		position:absolute;
-		display:none;
-		top: 30px;
-		left: 60px;
-	}
 	
-	#button1{
-		
-		height: 100px;
-		width: 180px;
-	}
 
 	.virtus{
 		
 		text-align: center;
 		margin-left: 8%;
 		margin-bottom: 0%;
+		font-family:"Helvetica";
 	}

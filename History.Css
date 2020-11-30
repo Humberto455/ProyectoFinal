@@ -18,71 +18,78 @@ left:35px;
 top:1px
 }
 
- /*Menu*/
-	 
-	 
-	 .menu ul{
-		width:105.2%;
-		background-color:#6987BF;
-		height: 60px;
-		
-	}
+/*Menu*/
+ 
+ 
+.menu ul{
+	width:100%;
+	background-color:#3e61ac;
+	height: 60px;
 	
-	.menu ul li{
-		display: inline;
-		float: left;
-		width: 110px;
-		height: 100%;
-	}
-	
-	.menu ul li a{
-		display:block;
-		text-decoration:none;
-		cursor:pointer;
-		line-height: 60px;
-		text-align: center;
-		color:#DBDBE1;
-		font-size: 19px;
-		font-family: "Helvetica";
-	}
-	
-	.menu li ul li{
-		margin: 0;
-		float: left;
-		display:inline;
-		width: 100%;
-		height: 40px;
-		text-align: center;
-	}
-	
-	.menu li ul a{
-		line-height: 60px;
-		color:gray;
-	}
-	
-	.menu li ul{
-		display: none;
-		position:relative;
-		z-index: 1;
-		background-color: gray;
-		width: 100px;
-		height: 120px;
-		left: 15px;
-	}
-	
-	.menu li ul li:hover{
-		background-color:#4084DB;
-	}
-	
-	.menu li:hover ul{
-		display: block;
-		float: left;
-	}
-	
-	.menu li:hover a{
-		color:white;
-	}
-	
+}
+
+.menu ul li{
+	display: inline;
+	float: left;
+	width: 110px;
+	height: 100%;
+}
+
+.menu ul li a{
+	display:block;
+	text-decoration:none;
+	cursor:pointer;
+	line-height: 60px;
+	text-align: center;
+	color:#DBDBE1;
+	font-size: 19px;
+	font-family: "Helvetica";
+}
+
+.menu ul li a p{
+	margin-top:-9px;
+	margin-left:-10px;
+}
+
+.menu li ul li{
+	margin-left:6px;
+	float: left;
+	display:inline;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+.menu li ul a{
+	line-height: 60px;
+	color:gray;
+}
+
+.menu li ul{
+	display: none;
+	position:relative;
+	z-index: 1;
+	background-color: gray;
+	width: 100px;
+	height: 120px;
+	left: 0px;
+}
+
+.menu li ul li:hover{
+	background-color:#4084DB;
+	margin-left:0px;
+	width:100%;
+}
+
+.menu li:hover ul{
+	display: block;
+	float: left;
+}
+
+.menu li:hover a{
+	color:white;
+}
+
 /*Menu*/
 
 /*textos*/

@@ -89,6 +89,7 @@ body{
 	color:white;
 }
 
+
 /*Menu*/
 
 /*textos*/
@@ -390,5 +391,13 @@ border-radius: 8px
 	font-family:"Helvetica";
 		color: white;
 		font-size: 15px;
+}
+
+#Entrada{
+	background-color: rgb(34, 209, 195);
+	color: black;
+	display: inline-block;
+	margin-left: 530%;
+	width: 100%;
 }
 

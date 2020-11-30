@@ -303,3 +303,11 @@ top:1130px;
 		color: white;
 		font-size: 15px;
 }
+
+#Entrada{
+	background-color: rgb(34, 209, 195);
+	color: black;
+	display: inline-block;
+	margin-left: 590%;
+	width: 100%;
+}
