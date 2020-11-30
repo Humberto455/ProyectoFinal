@@ -57,12 +57,14 @@ body{
 	position:relative;
 	z-index: 1;
 	background-color: gray;
-	width: 50px;
+	width: 60px;
 	height: auto;
 	left: 0px;
 	}
 	.menu li ul li:hover{
 	background-color:#6987BF;
+	margin-left:-40px;
+	width:100px;
 	}
 	.menu li:hover ul{
 	display: block;
@@ -335,15 +337,15 @@ margin-left: 87%;
 #boton1{
 	position: relative;
 	z-index: 1;
-	margin-left: 50%;
+	margin-left: 45%;
 }
 #boton2{
 	position: relative;
  	z-index: 1;
-	margin-left: 50%;
+	margin-left: 45%;
 }
 #boton3{
 	position: relative;
  	z-index: 1;
-	margin-left: 50%;
+	margin-left: 45%;
 }

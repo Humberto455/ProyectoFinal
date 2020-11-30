@@ -130,12 +130,10 @@
                 
           </div>
             
-          <input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+          
         </form>
-
-        <!--Boton Volver-->
-        <input id="button1" type="image" src="https://www.holaprincesa.es/img/cms/BOTONES/volver-03_1.png" onclick="obtenerdatos1()">
-        
+        <input id="button" type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+      
     
         <!--Extra-->
         <div id="extra">
@@ -147,27 +145,18 @@
     
      <!--jAVASCRIPT-->
      <script type="text/javascript">
-        //funcion boton enviar 
-           function obtenerdatos()
-           {
-             document.getElementById("coment").style.display = "none"; 
-              document.getElementById("button1").style.display = "block";
-           
-               var nombre = document.getElementById('name').value;
-               var Email = document.getElementById('email').value;
-               var mensaje = document.getElementById('message').value;
-               
-               console.log ("Nombre: " + nombre)
-               console.log("Email: " + Email)
-               console.log("Mensaje: " + mensaje)
-           }
-           //funcion boton volver 
-           function obtenerdatos1()
-       {
-       document.getElementById("coment").style.display = "block";
-        document.getElementById("button1").style.display = "none";
-        document.getElementById("coment").reset();
-        }
+        
+        function obtenerdatos(){
+			var datos = {
+			
+				nombre: document.getElementById("name").value,
+				email: document.getElementById("email").value,
+				mensaje: document.getElementById("message").value,
+			}
+			
+			console.log(datos)
+			
+			}
            
        </script>
      
