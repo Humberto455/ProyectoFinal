@@ -10,7 +10,7 @@
     </head>
 
     <body>
-       
+        
         <div id="contenido3">
         <div id="contenido2">
         <div id="contenido1">
@@ -108,6 +108,10 @@
     var User = document.getElementById("User").value;
     
     var Contra = document.getElementById("Password").value;
+
+    if((User == "")&&(Contra == "")){
+    alert("Ingresa tus Datos!")
+    }
     
     if((User == "Juan")&&(Contra == "code12")){             //Usuario y contraseña: U=Juan C=code12 User == "Juan"
     document.getElementById("Entrada").innerHTML =(User);
@@ -119,6 +123,7 @@
     alert("Contraseña Incorrecta")
     
     }
+
     
     
     }

@@ -336,16 +336,17 @@ margin-left: 87%;
 
 #boton1{
 	position: relative;
-	z-index: 1;
+	/* z-index: 1; */
 	margin-left: 45%;
+
 }
 #boton2{
 	position: relative;
- 	z-index: 1;
+ 	/* z-index: 1; */
 	margin-left: 45%;
 }
 #boton3{
 	position: relative;
- 	z-index: 1;
+ 	/* z-index: 1; */
 	margin-left: 45%;
 }
