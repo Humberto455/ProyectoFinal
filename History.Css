@@ -359,7 +359,7 @@ top:1px
 	#comentario {
 		position: absolute;
 	 left:40px;
-	 top:2420px;
+	 top:2520px;
 	 margin-top: 8px
 	}
 
@@ -395,6 +395,7 @@ top:1px
 	.años{
 		font-family: Arial, Helvetica, sans-serif;
 		margin-left:48%;
+		margin-bottom: 5%;
 		
 		
 	}
@@ -413,11 +414,15 @@ top:1px
 		display: block;
 		margin-left: -84%;
 		border-radius: 5px;
+		height: 300px;
+		width: 500px;
 	}
 	#lista1{
 		padding-top: 5%;
 		padding-bottom: 18%;
-		
+
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 20px;
 		
 		
 	}
@@ -459,7 +464,7 @@ top:1px
 	/* Lado derecho */
 
 	#texin{
-		margin-left: 20px;
+		margin-left: 18%;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	}
 

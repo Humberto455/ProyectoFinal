@@ -109,7 +109,7 @@ body{
 }
   #p1{
 	position: absolute;
-	left:550px;
+	left:610px;
 	top:200px;
 	
 }
@@ -130,7 +130,7 @@ body{
   #p2{
 	position: absolute;
 	left:10px;
-	top:480px;
+	top:520px;
 	
  }
 
@@ -149,8 +149,8 @@ body{
 }
 #p3{
 	position: absolute;
-	left:550px;
-	top:750px;
+	left:610px;
+	top:810px;
 
 }
 
@@ -185,7 +185,7 @@ body{
 
 #img2{
 	position: absolute;
-	left:550px;
+	left:600px;
 	top:460px;
 
 }
@@ -201,7 +201,7 @@ body{
 #img3{
 	position: absolute;
 	left:10px;
-	top:750px;
+	top:790px;
 
 }
 /*mapa*/
